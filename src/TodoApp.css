@@ -1,0 +1,72 @@
+.todo-app-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Delete Button */
+  .todo-app-delete-btn {
+    background-color: #ff5252 !important;
+    color: #fff !important;
+  }
+  
+  .todo-app-delete-btn:hover {
+    background-color: #ff1e1e !important;
+  }
+  
+  /* Snackbar Styles */
+  .MuiSnackbarContent-root {
+    background-color: #4caf50 !important;
+    color: #fff !important;
+    display: flex;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiSnackbarContent-root:hover {
+    background-color: #45a049 !important;
+  }
+  
+  /* Undo Button */
+  .todo-app-undo-btn {
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+  
+  .todo-app-undo-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  /* Close Button */
+  .todo-app-close-btn,
+  .todo-app-close-action-btn {
+    padding: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-app-close-btn:hover,
+  .todo-app-close-action-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
